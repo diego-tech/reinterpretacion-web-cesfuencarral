@@ -1,0 +1,72 @@
+.becas {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    h1 {
+        width: 100%;
+        height: 100px;
+        background-color: #edf0f2;
+        line-height: 100px;
+        text-align: center;
+        font-family: 'Lora';
+        font-size: 45px;
+        color: #7a7777;
+    }
+    .becas-content {
+        width: 75%;
+        margin-top: 5%;
+        margin-left: 13%;
+        a {
+            color: black;
+            text-decoration: underline;
+        }
+        p {
+            width: 100%;
+            font-size: 18px;
+            line-height: 45px;
+            font-family: 'WorkSans';
+        }
+        .first-strong {
+            display: block;
+            width: 100%;
+            font-size: 25px;
+            padding-bottom: 2%;
+            color: #7a7777;
+            font-family: 'Lora';
+        }
+        .the-h4 {
+            display: block;
+            width: 100%;
+            font-size: 20px;
+            padding-top: 3%;
+            padding-bottom: 2%;
+            color: #7a7777;
+            font-family: 'Lora';
+        }
+        .second-strong {
+            display: block;
+            width: 100%;
+            font-size: 25px;
+            padding-top: 5%;
+            padding-bottom: 2%;
+            color: #7a7777;
+            font-family: 'Lora';
+        }
+        .the-span {
+            display: block;
+            width: 100%;
+            font-size: 19px;
+            color: #1e2020;
+            font-family: 'Lora';
+        }
+        .third-strong {
+            display: block;
+            width: 100%;
+            font-size: 25px;
+            padding-top: 4%;
+            padding-bottom: 2%;
+            color: #7a7777;
+            font-family: 'Lora';
+        }
+    }
+}

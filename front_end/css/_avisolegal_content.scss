@@ -1,0 +1,56 @@
+.aviso-legal {
+    margin-bottom: 3%;
+    h1 {
+        width: 100%;
+        height: 100px;
+        background-color: #edf0f2;
+        line-height: 100px;
+        text-align: center;
+        font-family: 'Lora';
+        font-size: 45px;
+        color: #7a7777;
+    }
+    h4 {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        padding-bottom: 2%;
+        color: #7a7777;
+        font-family: 'Lora';
+    }
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+    .aviso-legal-1 {
+        width: 75%;
+        margin-top: 5%;
+        margin-left: 13%;
+        font-size: 20px;
+        line-height: 50px;
+        font-family: 'WorkSans';
+        .first-strong {
+            display: block;
+            width: 100%;
+            font-size: 25px;
+            padding-bottom: 2%;
+            color: #7a7777;
+            font-family: 'Lora';
+        }
+        .the-h4 {
+            display: block;
+            width: 100%;
+            font-size: 25px;
+            padding-bottom: 2%;
+            color: #7a7777;
+            font-family: 'Lora';
+        }
+        .ces-centrado {
+            display: block;
+            width: 100%;
+            font-size: 20px;
+            padding-bottom: 2%;
+            text-align: center;
+        }
+    }
+}

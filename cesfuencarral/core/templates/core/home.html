@@ -1,0 +1,109 @@
+{% extends 'core/layout.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock  %}
+
+{% block content %}
+
+<!-- Slider -->
+        {% for imagenes in imagenes %}
+
+        <div class="slider">
+            <ul>
+                <li><img src="{{imagenes.slider1.url}}" alt=""></li>
+                <li><img src="{{imagenes.slider2.url}}" alt=""></li>
+                <li><img src="{{imagenes.slider3.url}}" alt=""></li>
+                <li><img src="{{imagenes.slider4.url}}" alt=""></li>
+            </ul>
+        </div>
+
+            <!-- Fin Slider -->
+
+            <!-- Descripción -->
+        <div id="description">
+            <p>
+                El Centro de Estudios Superiores Fuencarral, es un centro educativo que focaliza sus esfuerzos en la formación integral del alumno/a y que para ello ha elegido como medio, la Formación Profesional de Grado Medio y Grado Superior. Contamos con una experiencia
+                desde el curso 2012-2013. Tenemos docentes especializados cada uno en su sector lo que lleva a nuestros alumnos a formarse en una amplia gama de grados (Sistema Microinformáticos y Redes, Atención a Personas en Situación de Dependencia, Cuidados
+                Auxiliares de Enfermería, Desarrollo de Aplicaciones Multiplataforma, Integración Social y Educación infantil).
+            </p>
+            <h2>
+                ¡En el CES todo va a salir bien!
+            </h2>
+        </div>
+        <!-- Fin Descripción -->
+        <!-- Cards -->
+            <section class="cards-areas">
+                <div class="cards-h1">
+                    <h1 id="h1-gm">Ciclos Formativos de Grado Medio</h1>
+                </div>
+                <a href="{% url 'smr' %}">
+                    <article class="card smr">
+                        <img src="{{imagenes.smr.url}}" alt="Sistemas Microinformáticos">
+                        <p class="description">
+                        </p>
+                    </article>
+                </a>
+                <a href="{% url 'dependencia' %}">
+                    <article class="card dependencia">
+                        <img src="{{imagenes.dependencia.url}}" alt="Dependencia">
+                        <p class="description">
+                        </p>
+                    </article>
+                </a>
+                <a href="{% url 'dependencia' %}">
+                    <article class="card enfermeria">
+                        <img src="{{imagenes.enfermeria.url}}" alt="enfermeria">
+                        <p class="description">
+                        </p>
+                    </article>
+                </a>
+                </section>
+                <div class="clearfix"></div>
+                <section class="cards-areas">
+                <div class="cards-h1">
+                    <h1 id="h1-gs">Ciclos Formativos de Grado Superior</h1>
+                </div>
+                <a href="{% url 'dam' %}">
+                    <article class="card dam">
+                        <img src="{{imagenes.dam.url}}" alt="DAM">
+                        <p class="description">
+                        </p>
+                    </article>
+                </a>
+                <a href="{% url 'dam' %}">
+                    <article class="card integracion">
+                        <img src="{{imagenes.integracion.url}}" alt="Integración">
+                        <p class="description">
+                        </p>
+                    </article>
+                </a>
+                <a href="infantil.html">
+                    <article class="card infantil">
+                        <img src="{{imagenes.infantil.url}}" alt="Infantil">
+                    </article>
+                </a>
+            </section>
+        <!-- Fin Cards -->
+        <div class="clearfix"></div>
+
+        <!-- Últimas Noticias -->
+        <div id="last-news">
+            <h2>Actualidad</h2>
+            <article>
+                <a href="{% url 'noticias' %}"><img src="{{imagenes.new1.url}}" alt=""></a>
+            </article>
+            <article>
+                <a href="{% url 'noticias' %}"><img src="{{imagenes.new2.url}}" alt=""></a>
+            </article>
+            <article>
+                <a href="{% url 'noticias' %}"><img src="{{imagenes.new3.url}}" alt=""></a>
+            </article>
+            <article>
+                <a href="{% url 'noticias' %}"><img src="{{imagenes.new4.url}}" alt=""></a>
+            </article>
+        </div>
+    {% endfor %}
+<!-- Fin Últimas Noticias -->
+<div class="clearfix"></div>
+{% endblock  %}

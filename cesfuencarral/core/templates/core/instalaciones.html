@@ -1,0 +1,29 @@
+{% extends 'core/layout.html' %}
+
+{% load static %}
+
+{% block title %}Instalaciones{% endblock %}
+
+{% block content %}
+    <!-- Contenido Instalaciones -->
+
+    <div class="instalaciones">
+        <h1>INSTALACIONES</h1>
+        <div class="instalaciones-content">
+            <p>El centro cuenta con todas las instalaciones necesarias para que podáis trabajar en las mejores condiciones. Para ello, hemos diseñado las aulas en función de la necesidad de los alumnos/as y de las materias de las diferentes titulaciones.
+                Así, contamos con aulas-taller con todo el material necesario para las tareas teórico-prácticas y aulas polivalentes (informáticas, audiovisuales, etc.). Las aulas cuentan con ordenadores, proyector y sistemas de audio.
+            </p>
+            <p>Existe acceso a internet en todo el centro, tanto para los ordenadores instalados, como para vuestros propios dispositivos.</p>
+            <p>Por supuesto, te facilitamos todos los materiales necesarios para que realices tus trabajos prácticos.</p>
+        </div>
+    </div>
+    <div class="galeria">
+        <ul>
+            <li><img src="{% static 'core/img/slider_instalaciones/slider_instalaciones.png'%}" alt=""></li>
+            <li><img src="{% static 'core/img/slider_instalaciones/slider_instalaciones_1.png'%}" alt=""></li>
+            <li><img src="{% static 'core/img/slider_instalaciones/slider_instalaciones_2.png'%}" alt=""></li>
+            <li><img src="{% static 'core/img/slider_instalaciones/slider_instalaciones _3.png'%}" alt=""></li>
+        </ul>
+    </div>
+    <!-- Fin Contenido Instalaciones -->
+{% endblock %}

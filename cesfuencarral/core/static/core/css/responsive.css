@@ -1,0 +1,3548 @@
+@media (max-width: 1677px) {
+    #info #campus {
+        margin-left: 77%;
+    }
+    #info #notes {
+        margin-left: 91%;
+    }
+    #header {
+        height: 237px;
+    }
+    #nav ul {
+        width: 59%;
+    }
+    .slider {
+        height: 574px;
+    }
+    #description {
+        margin-bottom: 286px;
+    }
+    #description p {
+        margin-left: 390px;
+    }
+    #description h2 {
+        margin-left: 390px;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 28%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 27%;
+    }
+    .cards-areas .card img {
+        margin-left: 11.5%;
+    }
+    #last-news {
+        height: 578px;
+    }
+    #last-news article {
+        float: left;
+        width: 21%;
+        margin-left: 3%;
+    }
+    #lateral {
+        width: 23%;
+        margin-left: 6%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 155px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 155px;
+    }
+    .grados-content {
+        width: 54%;
+        margin-left: 8%;
+    }
+    .grados-content .span-button {
+        width: 80%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 20px;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 28%;
+    }
+    .grados-content .profesores-1 {
+        width: 100%;
+    }
+    .grados-content .profesores-1 .profesores1-1 {
+        margin-left: 6%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 25%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 25%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 25%;
+    }
+    .grados-content .profesores-1 .profesores1-2 {
+        margin-left: 6%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 25%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 25%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 25%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 50%;
+    }
+    .empresas {
+        margin-top: 2%;
+        margin-bottom: 160px;
+    }
+    .profesorado .nosotros-5 .nosotros15 {
+        width: 18%;
+        margin-left: 14%;
+    }
+    .galeria {
+        height: 547px;
+    }
+    .ubicacion {
+        margin-left: 18%;
+    }
+    #login .forma-login {
+        margin-left: 37%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 90px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 90px;
+    }
+    #login .forma-login .submit {
+        margin-left: 39%;
+    }
+}
+
+@media (max-width: 1667px) {
+    #nav ul {
+        width: 59%;
+    }
+    .profesorado .nosotros-5 .nosotros15 {
+        width: 26%;
+        margin-left: 12%;
+    }
+    .profesorado .nosotros-5 .nosotros16 {
+        width: 56%;
+        margin-left: 0%;
+    }
+    .galeria {
+        height: 544px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 150px;
+    }
+    #login {
+        height: 938px;
+    }
+    #footer1 {
+        width: 100%;
+        height: 154px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 130px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 1440px) {
+    #info #campus {
+        margin-left: 75%;
+    }
+    #info #notes {
+        margin-left: 90%;
+    }
+    #header {
+        height: 204px;
+    }
+    #nav ul {
+        width: 68%;
+    }
+    #nav>ul>li #small {
+        width: 12%;
+    }
+    .slider {
+        height: 470px;
+    }
+    #description {
+        margin-bottom: 286px;
+    }
+    #description p {
+        margin-left: 300px;
+    }
+    #description h2 {
+        margin-left: 300px;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 21.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 20%;
+    }
+    .cards-areas .card img {
+        margin-left: 9%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 22%;
+        margin-left: 19%;
+    }
+    #lateral {
+        width: 27%;
+        margin-left: 4%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 154px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 15px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 156px;
+    }
+    .grados-content {
+        width: 54%;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 20px;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 50%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 65%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .galeria {
+        height: 470px;
+    }
+    .ubicacion {
+        margin-left: 11%;
+    }
+    #login {
+        height: 717px;
+    }
+    #login .forma-login {
+        margin-top: 5%;
+        height: 55%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 50px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 50px;
+    }
+    #login .forma-login .submit {
+        margin-left: 34%;
+    }
+    #footer1 {
+        width: 100%;
+        height: 154px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 130px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 1443px) {
+    #info #campus {
+        margin-left: 75%;
+    }
+    #info #notes {
+        margin-left: 90%;
+    }
+    #header {
+        height: 204px;
+    }
+    #nav ul {
+        width: 68%;
+    }
+    #nav>ul>li #small {
+        width: 12%;
+    }
+    .slider {
+        height: 470px;
+    }
+}
+
+@media (max-width: 1366px) {
+    #info #campus {
+        margin-left: 75%;
+    }
+    #info #notes {
+        margin-left: 90%;
+    }
+    #header {
+        height: 180px;
+    }
+    #nav ul {
+        width: 72%;
+    }
+    #nav>ul>li #small {
+        width: 14%;
+    }
+    .slider {
+        height: 446px;
+    }
+    #description {
+        margin-bottom: 286px;
+    }
+    #description p {
+        margin-left: 300px;
+    }
+    #description h2 {
+        margin-left: 300px;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 18.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 17%;
+    }
+    .cards-areas .card img {
+        margin-left: 9%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 25%;
+        margin-left: 16%;
+    }
+    #lateral {
+        width: 27%;
+        margin-left: 4%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 150px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 150px;
+    }
+    .grados-content {
+        width: 54%;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 10px;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 60%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 70%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .galeria {
+        height: 445px;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 7%;
+    }
+    .transportes {
+        margin-left: 3%;
+    }
+    #login {
+        height: 717px;
+    }
+    #login .forma-login {
+        margin-top: 5%;
+        height: 55%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 50px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 50px;
+    }
+    #login .forma-login .submit {
+        margin-left: 34%;
+    }
+    #footer1 {
+        width: 100%;
+        height: 154px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 130px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width:1302px) {
+    #info #campus {
+        margin-left: 75%;
+    }
+    #info #notes {
+        margin-left: 90%;
+    }
+    #header {
+        height: 180px;
+    }
+    #nav ul {
+        width: 76%;
+    }
+    #nav>ul>li #small {
+        width: 14%;
+    }
+    .slider {
+        height: 415px;
+    }
+    #description {
+        margin-bottom: 286px;
+    }
+    #description p {
+        margin-left: 300px;
+    }
+    #description h2 {
+        margin-left: 300px;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 18.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 17%;
+    }
+    .cards-areas .card img {
+        margin-left: 6%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 22%;
+        margin-left: 19%;
+    }
+    #lateral {
+        width: 27%;
+        margin-left: 4%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 139px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 139px;
+    }
+    .grados-content {
+        width: 60%;
+        margin-left: 40px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 0px;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 60%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 70%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .galeria {
+        height: 416px;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 7%;
+    }
+    .transportes {
+        margin-left: 3%;
+    }
+    #login {
+        height: 717px;
+    }
+    #login .forma-login {
+        margin-top: 5%;
+        height: 55%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 50px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 50px;
+    }
+    #login .forma-login .submit {
+        margin-left: 34%;
+    }
+    #footer1 {
+        width: 100%;
+        height: 154px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 130px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 1273px) {
+    #info #campus {
+        margin-left: 75%;
+    }
+    #info #notes {
+        margin-left: 90%;
+    }
+    #header {
+        height: 180px;
+    }
+    #nav ul {
+        width: 77%;
+    }
+    #nav>ul>li #small {
+        width: 14%;
+    }
+    .slider {
+        height: 415px;
+    }
+    #description {
+        margin-bottom: 286px;
+    }
+    #description p {
+        margin-left: 300px;
+    }
+    #description h2 {
+        margin-left: 300px;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 18.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 17%;
+    }
+    .cards-areas .card img {
+        margin-left: 6%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 22%;
+        margin-left: 19%;
+    }
+    #lateral {
+        width: 27%;
+        margin-left: 4%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 139px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 139px;
+    }
+    .grados-content {
+        width: 54%;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 10px;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 60%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 70%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .galeria {
+        height: 416px;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 7%;
+    }
+    .transportes {
+        margin-left: 3%;
+    }
+    #login {
+        height: 717px;
+    }
+    #login .forma-login {
+        margin-top: 5%;
+        height: 55%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 50px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 50px;
+    }
+    #login .forma-login .submit {
+        margin-left: 34%;
+    }
+    #footer1 {
+        width: 100%;
+        height: 154px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 130px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 1112px) {
+    #info #campus {
+        margin-left: 70%;
+    }
+    #info #notes {
+        margin-left: 90%;
+    }
+    #header {
+        height: 157px;
+    }
+    #nav ul {
+        width: 88%;
+    }
+    #nav>ul>li #small {
+        width: 20%;
+    }
+    .slider {
+        height: 363px;
+    }
+    #description {
+        margin-bottom: 340px;
+    }
+    #description p {
+        margin-left: 250px;
+    }
+    #description h2 {
+        margin-left: 250px;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 15.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 13%;
+    }
+    .cards-areas .card img {
+        margin-left: 4%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 30%;
+        margin-left: 14%;
+    }
+    #lateral {
+        position: relative;
+        float: none;
+        width: 80%;
+        margin-top: 50%;
+        margin-left: 10%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        font-size: 30px;
+    }
+    #lateral form .forma-form .form-field {
+        padding-left: 36px;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 361px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 361px;
+    }
+    #lateral form .forma-form .submit {
+        margin-left: 46%;
+    }
+    #lateral .parrafo-info-1 {
+        margin-left: 7%;
+    }
+    #lateral .fin {
+        padding-bottom: 10%;
+    }
+    .grados-content {
+        float: none;
+        width: 80%;
+        height: 200px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 5%;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 35%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 70%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 {
+        width: 30%;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-1 .nosotros2 {
+        width: 30%;
+        margin-left: 11%;
+    }
+    .galeria {
+        height: 362px;
+    }
+    .contacto {
+        width: 70%;
+        margin-left: 16%;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 22%;
+    }
+    .transportes {
+        position: relative;
+        float: none;
+        margin-top: 57%;
+        margin-right: 10%;
+    }
+    #login {
+        height: 626px;
+    }
+    #login .forma-login {
+        margin-top: 7%;
+        height: 50%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 50px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 50px;
+    }
+    #login .forma-login .submit {
+        margin-left: 34%;
+    }
+    #footer1 {
+        width: 100%;
+        height: 730px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 730px;
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 1024px) {
+    #info #campus {
+        margin-left: 72%;
+    }
+    #info #notes {
+        margin-left: 90%;
+    }
+    #header {
+        height: 145px;
+    }
+    #nav ul {
+        width: 88%;
+    }
+    #nav>ul>li #small {
+        width: 20%;
+    }
+    #nav>ul>li a {
+        padding-left: 25px;
+        padding-right: 24px;
+    }
+    .slider {
+        height: 334px;
+    }
+    #description {
+        margin-bottom: 41%;
+    }
+    #description p {
+        margin-left: 231px;
+    }
+    #description h2 {
+        margin-left: 231px;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 11.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 9%;
+    }
+    .cards-areas .card img {
+        margin-left: 3%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 30%;
+        margin-left: 14%;
+    }
+    .encabezado-grados h3 {
+        font-size: 30px;
+    }
+    .grados-content {
+        float: none;
+        width: 80%;
+        height: 200px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 5%;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 35%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 70%;
+    }
+    #lateral {
+        position: relative;
+        float: none;
+        width: 80%;
+        margin-top: 86%;
+        margin-left: 10%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        font-size: 30px;
+    }
+    #lateral form .forma-form .form-field {
+        padding-left: 36px;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 330px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 330px;
+    }
+    #lateral form .forma-form .submit {
+        margin-left: 46%;
+    }
+    #lateral .parrafo-info-1 {
+        margin-left: 7%;
+    }
+    #lateral .fin {
+        padding-bottom: 10%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 {
+        width: 30%;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-1 .nosotros2 {
+        width: 30%;
+        margin-left: 11%;
+    }
+    .galeria {
+        height: 334px;
+    }
+    .contacto {
+        width: 70%;
+        margin-left: 16%;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 20%;
+    }
+    .transportes {
+        position: relative;
+        float: none;
+        margin-top: 60%;
+    }
+    #login {
+        height: 577px;
+    }
+    #login .forma-login {
+        margin-top: 7%;
+        height: 50%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 50px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 50px;
+    }
+    #login .forma-login .submit {
+        margin-left: 34%;
+    }
+    #footer1 {
+        width: 100%;
+        height: 730px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 730px;
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 970px) {
+    #info p {
+        font-size: 17px;
+    }
+    #info #campus {
+        font-size: 18px;
+        margin-left: 72%;
+    }
+    #info #notes {
+        font-size: 18px;
+        margin-left: 90%;
+    }
+    #header {
+        min-width: 970px;
+        height: 145px;
+    }
+    #header #logotipo {
+        width: 100%;
+    }
+    #nav ul {
+        width: 88%;
+    }
+    #nav>ul>li #small {
+        width: 20%;
+    }
+    #nav>ul>li a {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    .slider {
+        height: 317px;
+    }
+    #description {
+        margin-bottom: 45%;
+    }
+    #description p {
+        margin-left: 231px;
+    }
+    #description h2 {
+        margin-left: 231px;
+    }
+    .cards-areas .cards-h1 {
+        width: 60%;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 14.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 11.5%;
+    }
+    .cards-areas .card img {
+        width: 27%;
+        margin-left: 3%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 32%;
+        margin-left: 12%;
+    }
+    .encabezado-grados h3 {
+        font-size: 30px;
+    }
+    .grados-content {
+        float: none;
+        width: 80%;
+        height: 200px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        margin-left: 3%;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 35%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        margin-left: 20%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 70%;
+    }
+    #lateral {
+        position: relative;
+        float: none;
+        width: 80%;
+        margin-top: 89%;
+        margin-left: 10%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        font-size: 30px;
+    }
+    #lateral form .forma-form .form-field {
+        padding-left: 36px;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 315px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 315px;
+    }
+    #lateral form .forma-form .submit {
+        margin-left: 46%;
+    }
+    #lateral .parrafo-info-1 {
+        margin-left: 7%;
+    }
+    #lateral .fin {
+        padding-bottom: 10%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 {
+        width: 30%;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-1 .nosotros2 {
+        width: 30%;
+        margin-left: 11%;
+    }
+    .galeria {
+        height: 317px;
+    }
+    .contacto {
+        width: 70%;
+        margin-left: 16%;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 20%;
+    }
+    .transportes {
+        position: relative;
+        float: none;
+        margin-top: 65%;
+    }
+    #login {
+        height: 546px;
+    }
+    #login .forma-login {
+        margin-top: 7%;
+        height: 50%;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 50px;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 50px;
+    }
+    #login .forma-login .submit {
+        margin-left: 34%;
+    }
+    #footer1 {
+        width: 100%;
+        height: 730px;
+        background-color: #0077a9;
+        margin: 0px auto;
+    }
+    #footer1 h4 {
+        width: 100%;
+        line-height: 730px;
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a {
+        text-decoration: none;
+        color: black;
+        font-family: "WorkSans";
+    }
+    #footer1 h4 a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 834px) {
+    #info {
+        background-color: white;
+        box-shadow: none;
+        position: absolute;
+    }
+    #info p {
+        display: none;
+        font-size: 15px;
+    }
+    #info #number {
+        display: none;
+    }
+    #info #mail {
+        display: none;
+    }
+    #info #campus {
+        font-size: 18px;
+        margin-left: 16%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #campus a {
+        color: black;
+    }
+    #info #notes {
+        font-size: 18px;
+        margin-left: 69%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #notes a {
+        color: black;
+    }
+    #header {
+        min-width: 747px;
+        height: 180px;
+        padding-top: 7;
+        background-color: white;
+    }
+    #header #logotipo {
+        background-image: url("../img/logo.jpg");
+        width: 150px;
+    }
+    #nav ul {
+        width: 92%;
+    }
+    #nav>ul>li a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #nav>ul>li #small {
+        width: 20%;
+    }
+    .slider {
+        height: 251px;
+    }
+    #description {
+        width: 65%;
+        margin-bottom: 35%;
+    }
+    #description p {
+        font-size: 17px;
+        line-height: 30px;
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+    #description h2 {
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 120px;
+        margin-top: 55px;
+    }
+    .cards-areas .cards-h1 {
+        width: 72%;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 14.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 11.5%;
+    }
+    .cards-areas .card img {
+        width: 45%;
+        height: 20%;
+        margin-left: 28%;
+        margin-top: 5%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 32%;
+        margin-left: 12%;
+    }
+    .encabezado-grados h3 {
+        font-size: 30px;
+    }
+    .encabezado-grados .h3-infantil {
+        font-size: 30px;
+    }
+    .encabezado-grados .h5-infantil {
+        font-size: 15px;
+    }
+    .grados-content {
+        float: none;
+        width: 80%;
+        height: 200px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        width: 90%;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .grados-content .aprender .aprender-1 {
+        width: 45%;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 90%;
+    }
+    .grados-content .aprender .aprender-2 p {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .requisitos .requisitos-1 {
+        width: 45%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 90%;
+    }
+    .grados-content .requisitos .requisitos-2 li {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    #lateral {
+        position: relative;
+        float: none;
+        width: 80%;
+        margin-top: 1000px;
+        margin-left: 10%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        font-size: 30px;
+    }
+    #lateral form .forma-form .form-field {
+        padding-left: 36px;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 269px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 269px;
+    }
+    #lateral form .forma-form .submit {
+        margin-left: 46%;
+    }
+    #lateral .parrafo-info-1 {
+        margin-left: 7%;
+    }
+    #lateral .fin {
+        padding-bottom: 10%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-1 .nosotros1 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 h5 {
+        width: 100%;
+        margin-left: 25%;
+    }
+    .profesorado .nosotros-1 .nosotros2 {
+        position: relative;
+    }
+    .profesorado .nosotros-1 .nosotros2 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros2 h5 {
+        width: 100%;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros3 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros3 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-2 .nosotros3 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros4 {
+        position: relative;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros4 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-2 .nosotros4 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-2 .nosotros5 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros5 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-2 .nosotros5 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros6 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-2 .nosotros6 img {
+        width: 100px;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-2 .nosotros6 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros7 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros7 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-3 .nosotros7 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros8 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros8 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-3 .nosotros8 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros9 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-3 .nosotros9 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros9 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros10 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-3 .nosotros10 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros10 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros11 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros11 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-4 .nosotros11 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros12 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros12 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-4 .nosotros12 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros13 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-4 .nosotros13 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros13 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros14 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-4 .nosotros14 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros14 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-5 .nosotros15 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros15 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-5 .nosotros15 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-5 .nosotros16 {
+        position: absolute;
+        margin-left: 44%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros16 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-5 .nosotros16 h5 {
+        margin-left: 28%;
+        width: 50%;
+    }
+    .footer2 {
+        margin-top: 800px;
+    }
+    .galeria {
+        height: 273px;
+    }
+    .contacto {
+        width: 70%;
+        margin-left: 16%;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 10%;
+    }
+    .transportes {
+        position: absolute;
+        float: none;
+        margin-top: 65%;
+        margin-left: 23%;
+    }
+    .footer3 {
+        margin-top: 350px;
+    }
+    #login {
+        background-color: #eeeeee;
+        background-image: none;
+        height: 100vh;
+        background-size: 1024px;
+    }
+    #login .forma-login {
+        width: 50%;
+        margin-left: 23%;
+        margin-top: 33%;
+        height: 700px;
+    }
+    #login .forma-login .form-field {
+        padding-top: 50px;
+    }
+    #login .forma-login .form-field .form2 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form2 .form2-2 input[type=usuario] {
+        width: 80%;
+    }
+    #login .forma-login .form-field .form3 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form3 .form3-3 input[type=password] {
+        width: 80%;
+    }
+    #login .forma-login .submit {
+        font-size: 30px;
+        margin-top: 8%;
+        margin-left: 37%;
+    }
+    #footer1 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #info {
+        background-color: white;
+        box-shadow: none;
+        position: absolute;
+    }
+    #info p {
+        display: none;
+        font-size: 15px;
+    }
+    #info #number {
+        display: none;
+    }
+    #info #mail {
+        display: none;
+    }
+    #info #campus {
+        font-size: 18px;
+        margin-left: 16%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #campus a {
+        color: black;
+    }
+    #info #notes {
+        font-size: 18px;
+        margin-left: 69%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #notes a {
+        color: black;
+    }
+    #header {
+        min-width: 747px;
+        height: 180px;
+        padding-top: 7;
+        background-color: white;
+    }
+    #header #logotipo {
+        background-image: url("../img/logo.jpg");
+        width: 150px;
+    }
+    #nav ul {
+        width: 97%;
+    }
+    #nav>ul>li a {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    #nav>ul>li #small {
+        width: 20%;
+    }
+    .slider {
+        height: 251px;
+    }
+    #description {
+        width: 65%;
+        margin-bottom: 35%;
+    }
+    #description p {
+        font-size: 17px;
+        line-height: 30px;
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+    #description h2 {
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 120px;
+        margin-top: 55px;
+    }
+    .cards-areas .cards-h1 {
+        width: 72%;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 14.5%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 11.5%;
+    }
+    .cards-areas .card img {
+        width: 45%;
+        height: 20%;
+        margin-left: 28%;
+        margin-top: 5%;
+    }
+    #last-news {
+        height: 862px;
+    }
+    #last-news article {
+        width: 32%;
+        margin-left: 12%;
+    }
+    .encabezado-grados h3 {
+        font-size: 30px;
+    }
+    .encabezado-grados .h3-infantil {
+        font-size: 30px;
+    }
+    .encabezado-grados .h5-infantil {
+        font-size: 15px;
+    }
+    .grados-content {
+        float: none;
+        width: 80%;
+        height: 200px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        width: 90%;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .grados-content .aprender .aprender-1 {
+        width: 45%;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 90%;
+    }
+    .grados-content .aprender .aprender-2 p {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 img {
+        width: 90px;
+        margin-left: 20%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .requisitos .requisitos-1 {
+        width: 45%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 90%;
+    }
+    .grados-content .requisitos .requisitos-2 li {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    #lateral {
+        position: relative;
+        float: none;
+        width: 80%;
+        margin-top: 1000px;
+        margin-left: 10%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        font-size: 30px;
+    }
+    #lateral form .forma-form .form-field {
+        padding-left: 36px;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 249px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 249px;
+    }
+    #lateral form .forma-form .submit {
+        margin-left: 46%;
+    }
+    #lateral .parrafo-info-1 {
+        margin-left: 7%;
+    }
+    #lateral .fin {
+        padding-bottom: 10%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-1 .nosotros1 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 h5 {
+        width: 100%;
+        margin-left: 25%;
+    }
+    .profesorado .nosotros-1 .nosotros2 {
+        position: relative;
+    }
+    .profesorado .nosotros-1 .nosotros2 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros2 h5 {
+        width: 100%;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros3 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros3 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-2 .nosotros3 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros4 {
+        position: relative;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros4 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-2 .nosotros4 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-2 .nosotros5 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros5 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-2 .nosotros5 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros6 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-2 .nosotros6 img {
+        width: 100px;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-2 .nosotros6 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros7 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros7 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-3 .nosotros7 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros8 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros8 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-3 .nosotros8 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros9 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-3 .nosotros9 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros9 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros10 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-3 .nosotros10 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros10 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros11 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros11 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-4 .nosotros11 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros12 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros12 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-4 .nosotros12 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros13 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-4 .nosotros13 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros13 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros14 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-4 .nosotros14 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros14 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-5 .nosotros15 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros15 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-5 .nosotros15 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-5 .nosotros16 {
+        position: absolute;
+        margin-left: 44%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros16 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-5 .nosotros16 h5 {
+        margin-left: 28%;
+        width: 50%;
+    }
+    .footer2 {
+        margin-top: 800px;
+    }
+    .galeria {
+        height: 250px;
+    }
+    .contacto {
+        width: 70%;
+        margin-left: 16%;
+    }
+    .contacto .contacto6 {
+        margin-left: 35%;
+    }
+    .ubicacion {
+        margin-left: 10%;
+    }
+    .transportes {
+        position: absolute;
+        float: none;
+        margin-top: 65%;
+        margin-left: 23%;
+    }
+    .footer3 {
+        margin-top: 350px;
+    }
+    #login {
+        background-color: #eeeeee;
+        background-image: none;
+        height: 100vh;
+        background-size: 1024px;
+    }
+    #login .forma-login {
+        width: 50%;
+        margin-left: 23%;
+        margin-top: 33%;
+        height: 700px;
+    }
+    #login .forma-login .form-field {
+        padding-top: 50px;
+    }
+    #login .forma-login .form-field .form2 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form2 .form2-2 input[type=usuario] {
+        width: 80%;
+    }
+    #login .forma-login .form-field .form3 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form3 .form3-3 input[type=password] {
+        width: 80%;
+    }
+    #login .forma-login .submit {
+        font-size: 30px;
+        margin-top: 8%;
+        margin-left: 37%;
+    }
+    #footer1 {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .icon-bar {
+        display: none;
+    }
+    #info {
+        background-color: white;
+        box-shadow: none;
+        position: absolute;
+    }
+    #info p {
+        display: none;
+        font-size: 15px;
+    }
+    #info #number {
+        display: none;
+    }
+    #info #mail {
+        display: none;
+    }
+    #info #campus {
+        font-size: 18px;
+        margin-left: 60%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #campus a {
+        color: black;
+    }
+    #info #notes {
+        position: absolute;
+        font-size: 18px;
+        margin-left: 68%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #notes a {
+        color: black;
+    }
+    #header {
+        min-width: 500px;
+        height: 130px;
+        padding-top: 7;
+        background-color: white;
+    }
+    #header #logotipo {
+        background-image: url("../img/logo.jpg");
+        width: 100px;
+        margin-right: 76%;
+    }
+    #nav {
+        height: 280px;
+    }
+    #nav ul {
+        width: 100%;
+    }
+    #nav>ul>li {
+        width: 100%;
+    }
+    #nav>ul>li a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #nav>ul>li #small {
+        width: 30%;
+    }
+    #nav>ul>li>ul {
+        width: 100%;
+    }
+    .slider {
+        height: 168px;
+    }
+    #description {
+        width: 85%;
+        margin-bottom: 45%;
+    }
+    #description p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 46px;
+        margin-top: 40px;
+    }
+    #description h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-left: 46px;
+        margin-top: 55px;
+    }
+    .cards-areas .cards-h1 {
+        width: 100%;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        margin-left: 11%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        margin-left: 8%;
+    }
+    .cards-areas .card img {
+        width: 55%;
+        height: 20%;
+        margin-left: 23%;
+        margin-top: 5%;
+    }
+    #last-news {
+        height: 1637px;
+    }
+    #last-news article {
+        width: 60%;
+        margin-left: 18%;
+    }
+    .encabezado-grados {
+        height: 120px;
+    }
+    .encabezado-grados h3 {
+        font-size: 30px;
+    }
+    .encabezado-grados .h3-infantil {
+        font-size: 30px;
+    }
+    .encabezado-grados .h3-dependencia {
+        font-size: 21px;
+    }
+    .encabezado-grados .h5-infantil {
+        font-size: 15px;
+    }
+    .encabezado-grados .h3-dam {
+        font-size: 21px;
+    }
+    .grados-content {
+        float: none;
+        width: 80%;
+        height: 200px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        width: 90%;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .grados-content .aprender .aprender-1 {
+        width: 45%;
+    }
+    .grados-content .aprender .aprender-1 img {
+        margin-top: 90%;
+    }
+    .grados-content .aprender .aprender-2 p {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .requisitos .requisitos-1 {
+        width: 45%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 90%;
+    }
+    .grados-content .requisitos .requisitos-2 li {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    #lateral {
+        position: relative;
+        float: none;
+        width: 80%;
+        margin-top: 1020px;
+        margin-left: 10%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        font-size: 30px;
+    }
+    #lateral form .forma-form .form-field {
+        padding-left: 20px;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 180px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 180px;
+    }
+    #lateral form .forma-form .submit {
+        margin-left: 46%;
+    }
+    #lateral .parrafo-info-1 {
+        margin-left: 7%;
+    }
+    #lateral .fin {
+        padding-bottom: 10%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .becas h1 {
+        font-size: 30px;
+    }
+    .becas .becas-content .first-strong {
+        font-size: 20px;
+    }
+    .becas .becas-content p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .becas .becas-content .second-strong {
+        font-size: 20px;
+    }
+    .becas .becas-content .third-strong {
+        font-size: 20px;
+    }
+    .profesorado .nosotros-1 .nosotros1 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-1 .nosotros1 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 h5 {
+        width: 100%;
+        margin-left: 25%;
+    }
+    .profesorado .nosotros-1 .nosotros2 {
+        position: relative;
+    }
+    .profesorado .nosotros-1 .nosotros2 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros2 h5 {
+        width: 100%;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros3 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros3 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-2 .nosotros3 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros4 {
+        position: relative;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros4 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-2 .nosotros4 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-2 .nosotros5 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros5 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 380px;
+    }
+    .profesorado .nosotros-2 .nosotros5 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros6 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-2 .nosotros6 img {
+        width: 100px;
+        margin-top: 380px;
+    }
+    .profesorado .nosotros-2 .nosotros6 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros7 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros7 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-3 .nosotros7 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros8 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros8 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-3 .nosotros8 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros9 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-3 .nosotros9 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros9 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros10 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-3 .nosotros10 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros10 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros11 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros11 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-4 .nosotros11 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros12 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros12 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-4 .nosotros12 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros13 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-4 .nosotros13 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros13 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros14 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-4 .nosotros14 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros14 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-5 .nosotros15 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros15 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-5 .nosotros15 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-5 .nosotros16 {
+        position: absolute;
+        margin-left: 44%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros16 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-5 .nosotros16 h5 {
+        margin-left: 28%;
+        width: 50%;
+    }
+    .footer2 {
+        margin-top: 800px;
+    }
+    .galeria {
+        height: 179px;
+    }
+    .contacto {
+        width: 70%;
+        margin-left: 16%;
+    }
+    .contacto .contacto6 {
+        margin-left: 29%;
+    }
+    .ubicacion {
+        margin-left: 10%;
+    }
+    .ubicacion iframe {
+        width: 430px;
+        height: 380px;
+    }
+    .transportes {
+        position: absolute;
+        float: none;
+        margin-top: 80%;
+        margin-left: 10%;
+    }
+    .footer3 {
+        margin-top: 350px;
+    }
+    #login {
+        background-color: #eeeeee;
+        background-image: none;
+        height: 100vh;
+        background-size: 1024px;
+    }
+    #login .forma-login {
+        width: 50%;
+        margin-left: 23%;
+        margin-top: 33%;
+        height: 600px;
+    }
+    #login .forma-login .form-field {
+        padding-top: 50px;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 40px;
+    }
+    #login .forma-login .form-field .form2 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form2 .form2-2 input[type=usuario] {
+        width: 80%;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 40px;
+    }
+    #login .forma-login .form-field .form3 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form3 .form3-3 input[type=password] {
+        width: 80%;
+    }
+    #login .forma-login .submit {
+        font-size: 30px;
+        margin-top: 8%;
+        margin-left: 33%;
+    }
+    #footer1 {
+        display: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .icon-bar {
+        display: none;
+    }
+    #info {
+        background-color: white;
+        box-shadow: none;
+        position: absolute;
+    }
+    #info p {
+        display: none;
+        font-size: 15px;
+    }
+    #info #number {
+        display: none;
+    }
+    #info #mail {
+        display: none;
+    }
+    #info #campus {
+        font-size: 18px;
+        margin-left: 50%;
+        margin-top: 15%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #campus a {
+        color: black;
+    }
+    #info #notes {
+        position: absolute;
+        font-size: 18px;
+        margin-left: 60%;
+        margin-top: 10%;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    #info #notes a {
+        color: black;
+    }
+    #header {
+        min-width: 500px;
+        height: 120px;
+        padding-top: 7;
+        background-color: white;
+    }
+    #header #logotipo {
+        background-image: url("../img/logo.jpg");
+        width: 100px;
+        margin-right: 76%;
+    }
+    #nav {
+        height: 280px;
+    }
+    #nav ul {
+        width: 100%;
+    }
+    #nav>ul>li {
+        width: 100%;
+    }
+    #nav>ul>li a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #nav>ul>li #small {
+        width: 100%;
+    }
+    #nav>ul>li>ul {
+        width: 100%;
+    }
+    .slider {
+        height: 135px;
+    }
+    #description {
+        width: 85%;
+        margin-bottom: 65%;
+    }
+    #description p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 33px;
+        margin-top: 40px;
+    }
+    #description h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-left: 33px;
+        margin-top: 20px;
+    }
+    .cards-areas .cards-h1 {
+        width: 100%;
+    }
+    .cards-areas .cards-h1 #h1-gm {
+        font-size: 20px;
+        margin-left: 11%;
+    }
+    .cards-areas .cards-h1 #h1-gs {
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    .cards-areas .card img {
+        width: 55%;
+        height: 20%;
+        margin-left: 23%;
+        margin-top: 5%;
+    }
+    #last-news {
+        height: 1637px;
+    }
+    #last-news article {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .encabezado-grados {
+        height: 75px;
+    }
+    .encabezado-grados h3 {
+        font-size: 20px;
+        line-height: 75px;
+    }
+    .encabezado-grados .h3-infantil {
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .encabezado-grados .h3-dependencia {
+        font-size: 15px;
+    }
+    .encabezado-grados .h5-infantil {
+        font-size: 15px;
+    }
+    .encabezado-grados .h3-dam {
+        font-size: 18px;
+    }
+    .grados-content {
+        float: none;
+        width: 80%;
+        height: 200px;
+    }
+    .grados-content .span-button {
+        width: 100%;
+    }
+    .grados-content .span-button .span-grados {
+        width: 90%;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .grados-content .aprender .aprender-1 {
+        width: 45%;
+    }
+    .grados-content .aprender .aprender-1 img {
+        width: 100%;
+        margin-top: 250px;
+    }
+    .grados-content .aprender .aprender-2 p {
+        font-size: 12.5px;
+        line-height: 17px;
+    }
+    .grados-content .profesores-1 .profesores1-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-1 .profesores1-1-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-1 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-2 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 {
+        margin-bottom: 3%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-3 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 img {
+        width: 90px;
+        margin-left: 5%;
+    }
+    .grados-content .profesores-1 .profesores1-2 .profesores1-2-4 h5 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .grados-content .requisitos .requisitos-1 {
+        width: 45%;
+    }
+    .grados-content .requisitos .requisitos-1 img {
+        width: 100%;
+        margin-top: 250px;
+    }
+    .grados-content .requisitos .requisitos-2 li {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+    #lateral {
+        position: relative;
+        float: none;
+        width: 80%;
+        margin-top: 1250px;
+        margin-left: 10%;
+    }
+    #lateral .h3-info {
+        width: 90%;
+        font-size: 30px;
+    }
+    #lateral form .forma-form .form-field {
+        padding-left: 20px;
+    }
+    #lateral form .forma-form .form-field .form1 .form1-1 .form1-1-1 {
+        margin-right: 5px;
+    }
+    #lateral form .forma-form .form-field .form2 .form2-2 input[type=email] {
+        width: 135px;
+    }
+    #lateral form .forma-form .form-field .form3 {
+        margin-left: 12px;
+    }
+    #lateral form .forma-form .form-field .form3 .form3-3 input[type=phone] {
+        width: 135px;
+    }
+    #lateral form .forma-form .submit {
+        margin-left: 46%;
+    }
+    #lateral .parrafo-info-1 {
+        margin-left: 7%;
+    }
+    #lateral .fin {
+        padding-bottom: 10%;
+    }
+    .empresas {
+        margin-bottom: 100px;
+    }
+    .becas h1 {
+        font-size: 30px;
+    }
+    .becas .becas-content .first-strong {
+        font-size: 20px;
+    }
+    .becas .becas-content p {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .becas .becas-content .second-strong {
+        font-size: 20px;
+    }
+    .becas .becas-content .third-strong {
+        font-size: 20px;
+    }
+    .profesorado .nosotros-1 .nosotros1 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-1 .nosotros1 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros1 h5 {
+        width: 100%;
+        margin-left: 25%;
+    }
+    .profesorado .nosotros-1 .nosotros2 {
+        position: relative;
+    }
+    .profesorado .nosotros-1 .nosotros2 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-1 .nosotros2 h5 {
+        width: 100%;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros3 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros3 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-2 .nosotros3 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros4 {
+        position: relative;
+        margin-left: 27%;
+    }
+    .profesorado .nosotros-2 .nosotros4 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-2 .nosotros4 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-2 .nosotros5 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-2 .nosotros5 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 380px;
+    }
+    .profesorado .nosotros-2 .nosotros5 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-2 .nosotros6 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-2 .nosotros6 img {
+        width: 100px;
+        margin-top: 380px;
+    }
+    .profesorado .nosotros-2 .nosotros6 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros7 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros7 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-3 .nosotros7 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros8 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-3 .nosotros8 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-3 .nosotros8 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-3 .nosotros9 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-3 .nosotros9 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros9 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-3 .nosotros10 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-3 .nosotros10 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-3 .nosotros10 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros11 {
+        position: relative;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros11 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-4 .nosotros11 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros12 {
+        position: relative;
+        margin-left: 27%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-4 .nosotros12 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-4 .nosotros12 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-4 .nosotros13 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+    }
+    .profesorado .nosotros-4 .nosotros13 img {
+        width: 100px;
+        margin-left: 63%;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros13 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-4 .nosotros14 {
+        position: absolute;
+        margin-left: 61%;
+    }
+    .profesorado .nosotros-4 .nosotros14 img {
+        width: 100px;
+        margin-top: 650px;
+    }
+    .profesorado .nosotros-4 .nosotros14 h5 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .profesorado .nosotros-5 .nosotros15 {
+        float: none;
+        position: absolute;
+        margin-left: 7%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros15 img {
+        width: 100px;
+        margin-left: 63%;
+    }
+    .profesorado .nosotros-5 .nosotros15 h5 {
+        width: 100%;
+        margin-left: 40%;
+    }
+    .profesorado .nosotros-5 .nosotros16 {
+        position: absolute;
+        margin-left: 44%;
+        margin-top: 360px;
+    }
+    .profesorado .nosotros-5 .nosotros16 img {
+        width: 100px;
+    }
+    .profesorado .nosotros-5 .nosotros16 h5 {
+        margin-left: 28%;
+        width: 50%;
+    }
+    .footer2 {
+        margin-top: 800px;
+    }
+    .galeria {
+        height: 135px;
+    }
+    .contacto {
+        width: 91%;
+        margin-left: 5%;
+    }
+    .contacto .contacto6 {
+        margin-left: 29%;
+    }
+    .ubicacion {
+        margin-left: 4%;
+    }
+    .ubicacion iframe {
+        width: 372px;
+        height: 328px;
+    }
+    .transportes {
+        position: absolute;
+        float: none;
+        margin-top: 90%;
+        margin-left: 10%;
+    }
+    .footer3 {
+        margin-top: 350px;
+    }
+    #login {
+        background-color: #eeeeee;
+        background-image: none;
+        height: 100vh;
+        background-size: 1024px;
+    }
+    #login .forma-login {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 33%;
+        height: 600px;
+    }
+    #login .forma-login .form-field {
+        padding-top: 50px;
+    }
+    #login .forma-login .form-field .form2 {
+        padding-left: 40px;
+    }
+    #login .forma-login .form-field .form2 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form2 .form2-2 input[type=usuario] {
+        width: 80%;
+    }
+    #login .forma-login .form-field .form3 {
+        padding-left: 40px;
+    }
+    #login .forma-login .form-field .form3 label {
+        font-size: 25px;
+    }
+    #login .forma-login .form-field .form3 .form3-3 input[type=password] {
+        width: 80%;
+    }
+    #login .forma-login .submit {
+        font-size: 30px;
+        margin-top: 8%;
+        margin-left: 33%;
+    }
+    #footer1 {
+        display: none;
+    }
+}
+
+
+/*# sourceMappingURL=responsive.css.map */

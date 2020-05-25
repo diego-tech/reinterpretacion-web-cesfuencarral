@@ -1,0 +1,268 @@
+{% extends 'core/layout.html' %}
+
+{% load static %}
+
+{% block title %}SMR{% endblock %}
+
+{% block content %}
+<!-- Encabezado Grados -->
+
+<div class="encabezado-grados">
+    <h3>Sistemas Microinformáticos Y Redes</h3>
+</div>
+
+<!-- Fin Encabezado Grados -->
+
+<!-- Contenido Grados -->
+
+<div class="grados-content">
+
+    <div class="span-button">
+        <span class="span-grados" onclick="visualiza_primero()">¿Que Vas a Aprender?</span>
+        <span class="span-grados" onclick="visualiza_segundo()">Plan De Estudios</span>
+        <span class="span-grados" onclick="visualiza_tercero()">Profesorado</span>
+        <span class="span-grados" onclick="visualiza_cuarto()">Requisitos Acceso</span>
+    </div>
+
+    <div id="primero" class="aprender">
+        <div class="aprender-1"><img src="{% static 'core/img/contenido-ciclos/SMR-Content.png'%}" alt="Imagen SMR"></div>
+        <div class="aprender-2">
+            <p>
+                El primer paso para acceder con una titulación oficial al apasionante mundo de la informática es este ciclo de 2000 horas en el que aprenderas a instalar, configurar y mantener sistemas microinformáticos, aislados o en red, así como redes locales en pequeños
+                entornos.
+                <br> <br> Mediante nuestro programa de seminarios complementarios certificados, podrás ampliar tus conocimientos técnicos y prácticos, ampliando el temario recogido en el currículum y accediendo a las nuevas exigencias del mundo informático,
+                el cual se renueva diariamente y a velocidad constante.
+                <br> <br> Al finalizar el ciclo podrás incorporarte al mundo laboral, con un grado de preparación formativa y técnica superior. De igual forma, podrás acceder a cualquier ciclo formativo de grado superior de la familia profesional
+                de Informática.
+            </p>
+        </div>
+    </div>
+    <div id="segundo" class="estudios">
+        <table class="tabla">
+            <thead class="head-tabla">
+                <tr>
+                    <th>Clave</th>
+                    <th>Denominación Módulo Profesional</th>
+                    <th>Horas Curriculares</th>
+                    <th>Curso 1º</th>
+                    <th>Curso 2º</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Aplicaciones Ofimáticas</td>
+                    <td>270</td>
+                    <td>8</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Formación y orientación laboral</td>
+                    <td>90</td>
+                    <td>3</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Montaje Y Mantenimiento de Equipos</td>
+                    <td>200</td>
+                    <td>6</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Redes Locales</td>
+                    <td>240</td>
+                    <td>7</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Sistemas Operativos Monopuestos</td>
+                    <td>200</td>
+                    <td>6</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>06</td>
+                    <td>Aplicaciones Web</td>
+                    <td>100</td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>07</td>
+                    <td>Empresa e Iniciativa Emprendedora</td>
+                    <td>65</td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>08</td>
+                    <td>Inglés Técnico para Grado Medio</td>
+                    <td>40</td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>09</td>
+                    <td>Seguridad informática</td>
+                    <td>85</td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Servicios En Red</td>
+                    <td>170</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Sistemas Operativos En Red</td>
+                    <td>170</td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>FORMACIÓN EN CENTROS DE TRABAJO</td>
+                    <td>370</td>
+                    <td></td>
+                    <td>370</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="tercero" class="profesores">
+        <div class="profesores-1">
+            <div class="profesores1-1">
+                <div class="profesores1-1-1">
+                    <img src="{% static 'core/img/Profesores/JaviSanchez-108x143.jpg'%}" alt="Javier Sánchez">
+                    <h5>JAVIER SÁNCHEZ PALACIOS GRADO EN INGENIERÍA INFORMÁTICA</h5>
+                </div>
+                <div class="profesores1-1-2">
+                    <img src="{% static 'core/img/Profesores/JaviNavazo-108x143.jpg'%}" alt="Javier Navazo">
+                    <h5>FCO JAVIER NAVAZO FERNADEZ GRADO EN INGENIERÍA INFORMÁTICA. RESPONSABLE FCTS</h5>
+                </div>
+                <div class="profesores1-1-3">
+                    <img src="{% static 'core/img/Profesores/David-108x143.jpg'%}" alt="David">
+                    <h5>DAVID ALVAREZ BOYERO GRADO EN INGENIERÍA INFORMÁTICA</h5>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="profesores1-2">
+                <div class="profesores1-2-1">
+                    <img src="{% static 'core/img/Profesores/Pilar-108x143.jpg'%}" alt="Pilar">
+                    <h5>PILAR CALLEJO PRADO LDA. FILOLOGÍA INGLESA</h5>
+                </div>
+                <div class="profesores1-2-2">
+                    <img src="{% static 'core/img/Profesores/Susana-108x143.jpg'%}" alt="Susana">
+                    <h5>SUSANA SÁNCHEZ PALACIOS LDA. EN DERECHO</h5>
+                </div>
+                <div class="profesores1-2-3">
+                    <img src="{% static 'core/img/Profesores/Monica-108x143.jpg'%}" alt="Mónica">
+                    <h5>MONICA FUENTES PLEITE GRADO EN EDUCACIÓN INFANTIL LDA. EN DERECHO LDA. EN DIRECCIÓN Y ADMINISTRACIÓN DE EMPRESAS</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cuarto" class="requisitos">
+        <div class="requisitos-1"><img src="{% static 'core/img/contenido-ciclos/Requisitos_de_Acceso.png'%}" alt=""></div>
+        <div class="requisitos-2">
+            <ul>
+                <li>Estar en posesión del título de Graduado en Educación Secundaria Obligatoria o de un nivel académico superior</li>
+                <li>Estar en posesión de un Título Profesional Básico (Formación Profesional Básica).</li>
+                <li>Estar en posesión de un título de Técnico o de Técnico Auxiliar o equivalente a efectos académicos.</li>
+                <li>Haber superado el segundo curso del Bachillerato Unificado y Polivalente (BUP).</li>
+                <li>Haber superado la prueba de acceso a ciclos formativos de grado medio (se requerirá tener, al menos, diecisiete años, cumplidos en el año de realización de la prueba).</li>
+                <li>Haber superado la prueba de acceso a la Universidad para mayores de 25 años</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Fin Contenido Grados -->
+
+<!-- Inicio Barra Lateral -->
+
+<aside id="lateral">
+    <div class="info1">
+        <p class="parrafo-info">Rellene el formulario y nos pondremos en contacto contigo para enviarte toda la información sobre</p>
+        <h3 class="h3-info">programa completo y precios</h3>
+    </div>
+    <form action="" method="POST">
+        <div class="forma-form">
+        {% csrf_token %}
+            <ul class="form-field">
+                <li class="form1">
+                    <label>Nombre <span class="requerido">*</span></label>
+                    <div class="form1-1">
+                        <span class="form1-1-1">{{form.name}}</span>
+                    </div>
+                </li>
+                <li class="form2">
+                    <label>Email <span class="requerido">*</span></label>
+                    <div class="form2-2">
+                        {{form.email}}
+                    </div>
+                </li>
+                <li class="form3">
+                    <label>Teléfono</label>
+                    <div class="form3-3">
+                        {{form.phone}}
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+                <li class="select">
+                    <label>Seleccione el Grado</label>
+                    {{form.public}}
+                </li>
+                <li class="form4">
+                    <span class="requerido">*</span>
+                    <div>
+                        <input type="checkbox">
+                        <label>Estoy de acuerdo con la <a href="#">política de privacidad.</a></label>
+                    </div>
+                </li>
+            </ul>
+            <input class="submit" type="submit" value="Enviar">
+        </div>
+        <div class="info1">
+            <p class="parrafo-info-1">
+                Para más información
+                <br>
+                <strong>91 729 28 62</strong>
+            </p>
+            <p class="parrafo-info-1 fin">
+                Visítanos de 9:30h a 14:00h
+                <br> de Lunes a Viernes
+                <br> (sin cita previa)
+            </p>
+        </div>
+    </form>
+</aside>
+<!-- Fin Barra Lateral -->
+
+<div class="clearfix"></div>
+<div class="empresas">
+    <h2>Empresas Colaboradoras</h2>
+    <img src="{% static 'core/img/empresas/SMR/Anovo-300x129.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/Aryan-300x121.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/asid-300x136.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/atos.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/FUNDACION-300x151.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/logo-hispasat-300x133.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/mantica.png'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/pcbox-300x75.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/PUNTOTEC.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/sage.png'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/SOSMIPC-300x74.jpg'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/tepublicoes-300x100.png'%}" alt="">
+    <img src="{% static 'core/img/empresas/SMR/WEBSISTEM-300x88.jpg'%}" alt="">
+</div>
+{% endblock %}

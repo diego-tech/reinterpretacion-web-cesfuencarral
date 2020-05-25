@@ -1,0 +1,47 @@
+{% extends 'campus/base.html' %}
+{% load static %}
+{% block title %}Campus Virtual{% endblock %}
+{% block content %}
+<div class="container">
+  <div style="padding-top:50px; text-align:center;">
+    <h1  style="font-size:50px;">Campus Virtual</h1>
+  </div>
+  <div style="padding-top:100px;">
+    <h2 style="text-align:center;">Sistemas Microinformáticos y Redes</h2>
+    {% if request.user.is_authenticated %}
+      <a style="padding-left:295px; font-size:20px;" href="{% url 'pages:pages' %}">Leer Más</a>
+    {% endif %}
+  </div>
+  <div style="padding-top:100px;">
+    <h2 style="text-align:center;">Atención a Personas En Situación de Dependencia</h2>
+    {% if request.user.is_authenticated %}
+      <a style="padding-left:195px; font-size:20px;" href="{% url 'pages:pages' %}">Leer Más</a>
+    {% endif %}
+  </div>
+  <div style="padding-top:100px;">
+    <h2 style="text-align:center;">Cuidados Auxiliares de Enfermería</h2>
+    {% if request.user.is_authenticated %}
+      <a style="padding-left:310px; font-size:20px;" href="{% url 'pages:pages' %}">Leer Más</a>
+    {% endif %}
+  </div>
+  <div style="padding-top:100px;">
+    <h2 style="text-align:center;">Desarrollo de Aplicaciones Multiplataforma</h2>
+    {% if request.user.is_authenticated %}
+      <a style="padding-left:243px; font-size:20px;" href="{% url 'pages:pages' %}">Leer Más</a>
+    {% endif %}
+  </div>
+  <div style="padding-top:100px;">
+    <h2 style="text-align:center;">Integración Social</h2>
+    {% if request.user.is_authenticated %}
+      <a style="padding-left:427px; font-size:20px;" href="{% url 'pages:pages' %}">Leer Más</a>
+    {% endif %}
+  </div>
+  <div style="padding-top:100px; padding-bottom:100px">
+    <h2 style="text-align:center;">Educación Infantil</h2>
+    <h5 style="text-align:center;">(Especialidad en Psicomotricidad, Atención y Estimulación Temprana, con Mención en Inglés)</h5>
+    {% if request.user.is_authenticated %}
+      <a style="padding-left:140px; font-size:20px;" href="{% url 'pages:pages' %}">Leer Más</a>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

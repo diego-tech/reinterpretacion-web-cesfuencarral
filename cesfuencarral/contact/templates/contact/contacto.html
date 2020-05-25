@@ -1,0 +1,91 @@
+{% extends 'core/layout.html' %}
+
+{% load static %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block content %}
+    <!-- Encabezado Grados -->
+
+    <div class="encabezado-grados">
+        <h3>Contacto</h3>
+    </div>
+
+    <!-- Fin Encabezado Grados -->
+
+    <!-- Contenido Contacto -->
+    <section class="contacto">
+        <div>
+            <form action="" method="POST">
+                {% csrf_token %}
+                <legend>Rellena los datos indicados a continuación</legend>
+
+                <div class="contacto1">
+                    <label>Tu Nombre *</label>
+                    <div class="contacto1-1">
+                        {{form.name}}
+                    </div>
+                    {{form.name.errors}}
+                </div>
+
+                <div class="contacto2">
+                    <label>Mail de Contacto *</label>
+                    <div class="contacto2-2">
+                        {{form.email}}
+                    </div>
+                    {{form.email.errors}}
+                </div>
+
+                <div class="contacto3">
+                    <label>Teléfono de Contacto *</label>
+                    <div class="contacto3-3">
+                        {{form.phone}}
+                    </div>
+                    {{form.phone.errors}}
+                </div>
+
+                <div class="contacto4">
+                    <label>¿En Que Podemos Ayudarte?</label>
+                    <div class="contacto4-4">
+                        {{form.content}}
+                    </div>
+                    {{form.content.errors}}
+                </div>
+
+                <div class="contacto5">
+                    <div class="contacto5-6">
+                        <input type="checkbox" id="condiciones" name="condiciones" value="condiciones" required>
+                        <label>He leído y acepto la política de privacidad</label>
+                    </div>
+                </div>
+
+                <div class="contacto6">
+                    <input type="reset" value="Borrar" name="Borrar">
+
+                    <input type="submit" value="Enviar" name="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="encabezado-ubicacion">
+        <h3>Dondé Estamos</h3>
+    </div>
+    <section class="ubicacion">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.3231689291797!2d-3.6893247841643992!3d40.4902362793567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229614ffc43cb%3A0xbe666f85fd8027f7!2sCentro%20de%20Estudios%20Superiores%20Fuencarral!5e0!3m2!1ses!2ses!4v1589282374664!5m2!1ses!2ses"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <div class="transportes">
+        <div>
+            <h4 style="text-align: center;">C/ Labastida, 13. 28034 – Madrid</h4>
+            <p>&nbsp;</p>
+            <h4 style="text-align: center;"><img src="http://www.cesfuencarral.com/wp-content/uploads/2016/04/metro.jpg" alt="metro" width="50" height="30">&nbsp;&nbsp; Metro Begoña y Fuencarral</h4>
+            <p>&nbsp;</p>
+            <h4 style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.cesfuencarral.com/wp-content/uploads/2016/04/cercanias.png" alt="cercanias" width="30" height="30"> Fuencarral Cercanías Ramón y Cajal</h4>
+            <p>&nbsp;</p>
+            <h4 style="text-align: center;"><img src="http://www.cesfuencarral.com/wp-content/uploads/2016/04/EMT.png" alt="EMT" srcset="https://www.cesfuencarral.com/wp-content/uploads/2016/04/EMT.png 330w, https://www.cesfuencarral.com/wp-content/uploads/2016/04/EMT-244x300.png 244w"
+                    sizes="(max-width: 24px) 100vw, 24px" width="24" height="30">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Líneas 66, 124, 137 y SE704</h4>
+        </div>
+    </div>
+    <!-- Fin Contenido Contacto -->
+{% endblock %}

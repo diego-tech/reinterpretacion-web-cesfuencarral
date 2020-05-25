@@ -1,0 +1,284 @@
+{% extends 'core/layout.html' %}
+
+{% load static %}
+
+{% block title %}Integracion{% endblock %}
+
+{% block content %}
+    <!-- Encabezado Grados -->
+    <div class="encabezado-grados">
+        <h3>Integración Social</h3>
+    </div>
+
+    <!-- Fin Encabezado Grados -->
+
+    <!-- Contenido Grados -->
+
+    <div class="grados-content">
+
+        <div class="span-button">
+            <span class="span-grados" onclick="visualiza_primero()">¿Que Vas a Aprender?</span>
+            <span class="span-grados" onclick="visualiza_segundo()">Plan De Estudios</span>
+            <span class="span-grados" onclick="visualiza_tercero()">Profesorado</span>
+            <span class="span-grados" onclick="visualiza_cuarto()">Requisitos Acceso</span>
+        </div>
+
+        <div id="primero" class="aprender">
+            <div class="aprender-1"><img src="{% static 'core/img/contenido-ciclos/Integracion-content.png'%}" alt="Imagen Integracion"></div>
+            <div class="aprender-2">
+                <p>
+                    Este Ciclo Formativo de Grado Superior, se imparte durante dos cursos académicos, en los que se incluye el periodo de formación en centros de trabajo (FCT). La duración total es de 2000 mil horas, en las que aprenderás a trabajar en el más puro ámbito
+                    social, desarrollando tareas de diseño, apoyo, organización, etc. ; de todos aquellos colectivos que tienen más dificultades para integrarse en la sociedad, cómo son: el mundo de la discapacidad, el de la dependencia, menores en situación
+                    de riesgo de exclusión, inmigración, etc
+                    <br> <br> A su finalización, podrá trabajar cómo Técnico de programas de prevención e inserción social, Educador o educadora, Trabajador o trabajadora familiar, Auxiliar de tutela, Técnico de integración social, Educador o educadora
+                    de educación especial, etc.
+                    <br> <br> También podrás incorporarte a la Universidad en Grados como Magisterio, Psicología, Trabajo Social, etc.
+                </p>
+            </div>
+        </div>
+        <div id="segundo" class="estudios">
+            <table class="tabla">
+                <thead class="head-tabla">
+                    <tr>
+                        <th>Clave</th>
+                        <th>Denominación Módulo Profesional</th>
+                        <th>Horas Curriculares</th>
+                        <th>Curso 1º</th>
+                        <th>Curso 2º</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Contexto de la Intervención Social</td>
+                        <td>165</td>
+                        <td>5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Inserción Sociolaboral</td>
+                        <td>195</td>
+                        <td>6</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Mediación Comunitaria</td>
+                        <td>160</td>
+                        <td>5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Promoción de la Autonomía Personal</td>
+                        <td>225</td>
+                        <td>7</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>Metodología de la Intervención Social</td>
+                        <td>125</td>
+                        <td>4</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td>Formación y Orientación Laboral</td>
+                        <td>90</td>
+                        <td>3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>07</td>
+                        <td>Habilidades Sociales</td>
+                        <td>75</td>
+                        <td></td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>08</td>
+                        <td>Primeros Auxiliares</td>
+                        <td>75</td>
+                        <td></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>09</td>
+                        <td>Atención a las Unidades de Convivencia</td>
+                        <td>150</td>
+                        <td></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Apoyo a la Intervención Educativa</td>
+                        <td>110</td>
+                        <td></td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Sistemas Aumentativos y Alternativos de Comunicación</td>
+                        <td>125</td>
+                        <td></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Empresa e Iniciativa Emprendedora</td>
+                        <td>65</td>
+                        <td></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Inglés Técnico para Grado Superior</td>
+                        <td>40</td>
+                        <td></td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Proyecto de Integracion Social</td>
+                        <td>30</td>
+                        <td></td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>FORMACIÓN EN CENTROS DE TRABAJO</td>
+                        <td>370</td>
+                        <td></td>
+                        <td>370</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="tercero" class="profesores">
+            <div class="profesores-1">
+                <div class="profesores1-1">
+                    <div class="profesores1-1-1">
+                        <img src="{% static 'core/img/Profesores/Esperanza-108x143.jpg'%}" alt="Esperanza">
+                        <h5>ESPERANZA MARTÍN VARA LDA. FILOSOFÍA Y CIENCIAS DE LA EDUCACIÓN.</h5>
+                    </div>
+                    <div class="profesores1-1-2">
+                        <img src="{% static 'core/img/Profesores/Blanca-108x143.jpg'%}" alt="Blanca">
+                        <h5>BLANCA MEJÍAS NEIRA GRADO EN EDUCACIÓN PRIMARIA</h5>
+                    </div>
+                    <div class="profesores1-1-3">
+                        <img src="{% static 'core/img/Profesores/Teresa-108x143.jpg'%}" alt="Teresa">
+                        <h5>TERESA VALES CABALLERO LDA. FILOSOFÍA Y CIENCIAS DE LA EDUCACIÓN. SECCIÓN PSICOLOGÍA.</h5>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="profesores1-2">
+                    <div class="profesores1-2-1">
+                        <img src="{% static 'core/img/Profesores/Pilar-108x143.jpg'%}" alt="Pilar">
+                        <h5>PILAR CALLEJO PRADO LDA. FILOLOGÍA INGLESA</h5>
+                    </div>
+                    <div class="profesores1-2-2">
+                        <img src="{% static 'core/img/Profesores/Nacho-108x143.jpg'%}" alt="Nacho">
+                        <h5>IGNACIO RIVAS TORRES GRADUADO ENFERMERIA</h5>
+                    </div>
+                    <div class="profesores1-2-3">
+                        <img src="{% static 'core/img/Profesores/Miguel-108x143.jpg'%}" alt="Miguel">
+                        <h5>MIGUEL ANGEL ROMERO ALHAMBRA LICENCIADO EN DERECHO</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cuarto" class="requisitos">
+            <div class="requisitos-1"><img src="{% static 'core/img/contenido-ciclos/Requisitos_de_Acceso.png'%}" alt=""></div>
+            <div class="requisitos-2">
+                <ul>
+                    <li>Estar en posesión del Título de Bachiller, o de un certificado acreditativo de haber superado todas las materias del Bachillerato.</li>
+                    <li>Estar en posesión del Título de Bachillerato Unificado Polivalente (BUP).</li>
+                    <li>Haber superado el segundo curso de cualquier modalidad de Bachillerato experimental.</li>
+                    <li>Estar en posesión de un Título de Técnico (Formación Profesional de Grado Medio)*.</li>
+                    <li>Estar en posesión de un Título de Técnico Superior, Técnico Especialista o equivalente a efectos académicos.</li>
+                    <li>Haber superado el Curso de Orientación Universitaria (COU).</li>
+                    <li>Estar en posesión de cualquier Titulación Universitaria o equivalente.</li>
+                    <li>Haber superado la prueba de acceso a ciclos formativos de grado superior (se requiere tener al menos 19 años en el año que se realiza la prueba o 18 para quienes poseen el título de Técnico).</li>
+                    <li>Haber superado la prueba de acceso a la Universidad para mayores de 25 años</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin Contenido Grados -->
+
+    <!-- Inicio Barra Lateral -->
+
+<aside id="lateral">
+    <div class="info1">
+        <p class="parrafo-info">Rellene el formulario y nos pondremos en contacto contigo para enviarte toda la información sobre</p>
+        <h3 class="h3-info">programa completo y precios</h3>
+    </div>
+    <form action="" method="POST">
+        <div class="forma-form">
+        {% csrf_token %}
+            <ul class="form-field">
+                <li class="form1">
+                    <label>Nombre <span class="requerido">*</span></label>
+                    <div class="form1-1">
+                        <span class="form1-1-1">{{form.name}}</span>
+                    </div>
+                </li>
+                <li class="form2">
+                    <label>Email <span class="requerido">*</span></label>
+                    <div class="form2-2">
+                        {{form.email}}
+                    </div>
+                </li>
+                <li class="form3">
+                    <label>Teléfono</label>
+                    <div class="form3-3">
+                        {{form.phone}}
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+                <li class="select">
+                    <label>Seleccione el Grado</label>
+                    {{form.public}}
+                </li>
+                <li class="form4">
+                    <span class="requerido">*</span>
+                    <div>
+                        <input type="checkbox">
+                        <label>Estoy de acuerdo con la <a href="#">política de privacidad.</a></label>
+                    </div>
+                </li>
+            </ul>
+            <input class="submit" type="submit" value="Enviar">
+        </div>
+        <div class="info1">
+            <p class="parrafo-info-1">
+                Para más información
+                <br>
+                <strong>91 729 28 62</strong>
+            </p>
+            <p class="parrafo-info-1 fin">
+                Visítanos de 9:30h a 14:00h
+                <br> de Lunes a Viernes
+                <br> (sin cita previa)
+            </p>
+        </div>
+    </form>
+</aside>
+    <!-- Fin Barra Lateral -->
+
+    <div class="clearfix"></div>
+    <div class="empresas">
+        <h2>Empresas Colaboradoras</h2>
+        <img src="{% static 'core/img/empresas/Integración Social/Araya-300x277.jpg'%}" alt="">
+        <img src="{% static 'core/img/empresas/Integración Social/astor.jpg'%}" alt="">
+        <img src="{% static 'core/img/empresas/Integración Social/Funprodami.jpeg'%}" alt="">
+        <img src="{% static 'core/img/empresas/Integración Social/LEO-300x40.jpg'%}" alt="">
+        <img src="{% static 'core/img/empresas/Integración Social/LOGO-fondoblanco-calasancio-300x80.jpg'%}" alt="">
+        <img src="{% static 'core/img/empresas/Integración Social/SanRafael-300x191.jpg'%}" alt="">
+    </div>
+{% endblock %}

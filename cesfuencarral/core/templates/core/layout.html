@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} | CES FUENCARRAL</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/styles.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/fonts.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'core/css/responsive.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Subir Arriba -->
+    <span class="go-top icon-arrow-up2"></span>
+
+    <!-- Fin Subir Arriba -->
+    <!-- Social Bar -->
+
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/CES-Fuencarral-287495468039021/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/cesfuencarral/?igshid=10943rob1ut4c" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/Ces_fuencarral" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCpCk_1VlaUk3Fp1ZOJ6Sv8A" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
+    <!-- Fin Social Bar -->
+
+    <!-- Info -->
+    <div id="info">
+        <p>¿Quieres contactar con nosotros?</p>
+
+        <div id="number">
+            <a href="tel:91 729 28 62">91 729 28 62</a>
+        </div>
+        <div id="mail">
+            <a href="mailto:info@cesfuencarral.com">info@cesfuencarral.com</a>
+        </div>
+        <div id="campus">
+            <a href="https://campusvirtual.cesfuencarral.com/" target="blank">
+                Campus Virtual
+            </a>
+        </div>
+        <div id="notes">
+            <a href="{% url 'campus' %}" target="_blank">Alumnos</a>
+        </div>
+    </div>
+
+    <!-- Fin Info -->
+
+    <!-- Inicio de la cabecera -->
+    <div class="clearfix"></div>
+    <header id="header">
+        <div id="logotipo">
+        </div>
+    </header>
+
+    <!-- Fin de la cabecera -->
+
+    <!--MENU NAVEGACIÓN-->
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="{% url 'home' %}">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Grado Medio</a>
+                <ul>
+                    <li class="tamaño">
+                        <a href="{% url 'smr' %}">Sistemas Microinformáticos y Redes</a>
+                    </li>
+                    <li class="tamaño">
+                        <a href="{% url 'dependencia' %}">Atención a Personas En Situación de Dependencia</a>
+                    </li>
+                    <li class="tamaño">
+                        <a href="{% url 'enfermeria' %}">Cuidados Auxiliares de Enfermería</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Grado Superior</a>
+                <ul>
+                    <li class="tamaño">
+                        <a href="{% url 'dam' %}">Desarrollo de Aplicaciones Multiplataforma (DAM)</a>
+                    </li>
+                    <li class="tamaño">
+                        <a href="{% url 'integracion' %}">Integración Social</a>
+                    </li>
+                    <li class="tamaño">
+                        <a href="{% url 'infantil' %}">Educación Infantil (Especialidad en Psicomotricidad, Atención y Estimulación Temprana con Mención en Inglés)</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="{% url 'becas' %}">Becas</a>
+            </li>
+            <li>
+                <a href="{% url 'noticias' %}">Noticias</a>
+            </li>
+            <li>
+                <a href="#">Conócenos</a>
+                <ul id="small">
+                    <li>
+                        <a href="{% url 'nosotros' %}">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="{% url 'instalaciones' %}">Instalaciones</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="{% url 'contacto' %}">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- FIN MENU NAVEGACIÓN -->
+    {% block content %}{% endblock  %}
+
+    <!-- Pie de página -->
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <div id="wrap">
+            <h4>&copy; 2020 CES FUENCARRAL | <a href="{% url 'legal' %}">Aviso Legal</a></h4>
+        </div>
+    </footer>
+
+    <!-- Fin Pie Página -->
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="{% static 'core/js/scripts.js'%}"></script>
+</body>
+
+</html>
+

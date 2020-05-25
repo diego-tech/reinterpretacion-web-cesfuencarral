@@ -1,0 +1,213 @@
+{% extends 'core/layout.html' %}
+
+{% load static %}
+
+{% block title %}Enfermería{% endblock %}
+
+{% block content %}
+    <!-- Encabezado Grados -->
+
+    <div class="encabezado-grados">
+        <h3>Cuidados Auxiliares de Enfermería</h3>
+    </div>
+
+    <!-- Fin Encabezado Grados -->
+
+    <!-- Contenido Grados -->
+
+    <div class="grados-content">
+
+        <div class="span-button">
+            <span class="span-grados" onclick="visualiza_primero()">¿Que Vas a Aprender?</span>
+            <span class="span-grados" onclick="visualiza_segundo()">Plan De Estudios</span>
+            <span class="span-grados" onclick="visualiza_tercero()">Profesorado</span>
+            <span class="span-grados" onclick="visualiza_cuarto()">Requisitos Acceso</span>
+        </div>
+
+        <div id="primero" class="aprender">
+            <div class="aprender-1"><img src="{% static 'core/img/contenido-ciclos/Enfermeria-Content.png'%}" alt="Imagen Enfermeria"></div>
+            <div class="aprender-2">
+                <p>
+                    A través de este ciclo formativo de 1400 horas te convertirás en un profesional del área sanitaria, fundamental para el funcionamiento de los centros hospitalarios, centros de salud, residencias de ancianos, etc. Los Técnicos en Cuidado Auxiliares de
+                    Enfermería, trabajan en equipo con los equipos de enfermería, médicos, quirófanos, etc..
+                    <br> <br> Mediante nuestro programa de seminarios complementarios certificados, ampliarás tus conocimientos técnicos y prácticos, sobre el temario recogido en el currículum y accediendo a las nuevas exigencias del mundo de la enfermería.
+                    <br> <br> Al finalizar el ciclo estarás en disposición de acceder al mundo laboral, con un grado de preparación formativa y técnica superior. De igual forma, tendrás la posibilidad de acceder a cualquier ciclo formativo de grado superior
+                    de la familia profesional de Enfermería.
+                </p>
+            </div>
+        </div>
+        <div id="segundo" class="estudios">
+            <table class="tabla">
+                <thead class="head-tabla">
+                    <tr>
+                        <th>Clave</th>
+                        <th>Denominación Módulo Profesional</th>
+                        <th>Horas Curriculares</th>
+                        <th>Curso 1º</th>
+                        <th>Curso 2º</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Operaciones Administrativas y Documentación Sanitaria</td>
+                        <td>30</td>
+                        <td>2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Técnicas Básicas de Enfermeria</td>
+                        <td>225</td>
+                        <td>11</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Higiene del Medio Hospitalario y Limpieza de Material</td>
+                        <td>85</td>
+                        <td>5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Promoción de la Salud y Apoyo Psicológico al Paciente</td>
+                        <td>65</td>
+                        <td>4</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>Técnicas de Ayuda Odontológica-estomatológica</td>
+                        <td>65</td>
+                        <td>4</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td>Relaciones en el Equipo de Trabajo</td>
+                        <td>30</td>
+                        <td>2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>07</td>
+                        <td>Formación y Orientación Laboral</td>
+                        <td>30</td>
+                        <td>2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>08</td>
+                        <td>Formación en Centros de Trabajo</td>
+                        <td>870</td>
+                        <td></td>
+                        <td>440</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="tercero" class="profesores">
+            <div class="profesores-1">
+                <div class="profesores1-1">
+                    <div class="profesores1-1-1">
+                        <img src="{% static 'core/img/Profesores/Nacho-108x143.jpg'%}" alt="Nacho">
+                        <h5>IGNACIO RIVAS TORRES GRADUADO ENFERMERIA</h5>
+                    </div>
+                    <div class="profesores1-1-2">
+                        <img src="{% static 'core/img/Profesores/Angeles-108x143.jpg'%}" alt="Ángeles">
+                        <h5>ÁNGELES MARÍA LARA PRADAS LICENCIADA EN MEDICINA Y CIRUGÍA</h5>
+                    </div>
+                    <div class="profesores1-1-3">
+                        <img src="{% static 'core/img/Profesores/Miguel-108x143.jpg'%}" alt="Miguel">
+                        <h5>MIGUEL ANGEL ROMERO ALHAMBRA LICENCIADO EN DERECHO</h5>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="profesores1-2">
+                    <div class="profesores1-2-4">
+                        <img src="{% static 'core/img/Profesores/Virginia-108x143.jpg'%}" alt="Virginia">
+                        <h5>VIRGINIA MARTÍNEZ AYERRA LDA. EN BIOLOGÍA ESPECIALIDAD AMBIENTAL PSICÓLOGA CLÍNICA</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cuarto" class="requisitos">
+            <div class="requisitos-1"><img src="{% static 'core/img/contenido-ciclos/Requisitos_de_Acceso.png'%}" alt=""></div>
+            <div class="requisitos-2">
+                <ul>
+                    <li>Estar en posesión del título de Graduado en Educación Secundaria Obligatoria o de un nivel académico superior</li>
+                    <li>Estar en posesión de un Título Profesional Básico (Formación Profesional Básica).</li>
+                    <li>Estar en posesión de un título de Técnico o de Técnico Auxiliar o equivalente a efectos académicos.</li>
+                    <li>Haber superado el segundo curso del Bachillerato Unificado y Polivalente (BUP).</li>
+                    <li>Haber superado la prueba de acceso a ciclos formativos de grado medio (se requerirá tener, al menos, diecisiete años, cumplidos en el año de realización de la prueba).</li>
+                    <li>Haber superado la prueba de acceso a la Universidad para mayores de 25 años</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin Contenido Grados -->
+
+    <!-- Inicio Barra Lateral -->
+
+<aside id="lateral">
+    <div class="info1">
+        <p class="parrafo-info">Rellene el formulario y nos pondremos en contacto contigo para enviarte toda la información sobre</p>
+        <h3 class="h3-info">programa completo y precios</h3>
+    </div>
+    <form action="" method="POST">
+        <div class="forma-form">
+        {% csrf_token %}
+            <ul class="form-field">
+                <li class="form1">
+                    <label>Nombre <span class="requerido">*</span></label>
+                    <div class="form1-1">
+                        <span class="form1-1-1">{{form.name}}</span>
+                    </div>
+                </li>
+                <li class="form2">
+                    <label>Email <span class="requerido">*</span></label>
+                    <div class="form2-2">
+                        {{form.email}}
+                    </div>
+                </li>
+                <li class="form3">
+                    <label>Teléfono</label>
+                    <div class="form3-3">
+                        {{form.phone}}
+                    </div>
+                </li>
+                <div class="clearfix"></div>
+                <li class="select">
+                    <label>Seleccione el Grado</label>
+                    {{form.public}}
+                </li>
+                <li class="form4">
+                    <span class="requerido">*</span>
+                    <div>
+                        <input type="checkbox">
+                        <label>Estoy de acuerdo con la <a href="#">política de privacidad.</a></label>
+                    </div>
+                </li>
+            </ul>
+            <input class="submit" type="submit" value="Enviar">
+        </div>
+        <div class="info1">
+            <p class="parrafo-info-1">
+                Para más información
+                <br>
+                <strong>91 729 28 62</strong>
+            </p>
+            <p class="parrafo-info-1 fin">
+                Visítanos de 9:30h a 14:00h
+                <br> de Lunes a Viernes
+                <br> (sin cita previa)
+            </p>
+        </div>
+    </form>
+</aside>
+    <!-- Fin Barra Lateral -->
+{% endblock %}

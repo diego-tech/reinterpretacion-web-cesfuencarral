@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../css/fonts/icomoon.eot?kk6l63');
+    src: url('../css/fonts/icomoon.eot?kk6l63#iefix') format('embedded-opentype'), url('../css/fonts/icomoon.ttf?kk6l63') format('truetype'), url('../css/fonts/icomoon.woff?kk6l63') format('woff'), url('fonts/icomoon.svg?kk6l63#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: "icons";
+    src: url("../css/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"), url("../css/fonts/websymbols-regular-webfont.eot");
+    src: url("../css/fonts/websymbols-regular-webfont.eot?·iefix") format("embedded-opentype"), url("../css/fonts/websymbols-regular-webfont.woff") format("woff"), url("../css/fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-arrow-up2:before {
+    content: "\ea3a";
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../css/fonts/WorkSans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../css/fonts/Montserrat-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../css/fonts/Lora-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('../css/fonts/NunitoSans-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('../css/fonts/Prompt-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../css/fonts/Raleway-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
