@@ -20,6 +20,11 @@ from pages.urls import pages_patterns
 from profiles.urls import profiles_patterns
 from messenger.urls import messenger_patterns
 
+"""
+Este es el urls.py general en el que se guardan todas 
+las urls de todas lás páginas de nuestros proyectos
+
+"""
 urlpatterns = [
     path('', include('core.urls')),
     path('admin/', admin.site.urls),
@@ -47,6 +52,12 @@ urlpatterns = [
     path('messenger/', include(messenger_patterns)),
 ]
 
+
+"""
+Esta configuración es la configuración del archivo media de la 
+base de datos para que las imágenes media se guarden en este archivo
+
+"""
 if settings.DEBUG:
     from django.conf.urls.static import static
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

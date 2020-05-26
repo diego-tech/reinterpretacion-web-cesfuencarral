@@ -3,6 +3,11 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from ckeditor.fields import RichTextField
 
+"""
+Configuraremos los modelos para crear las páginas en el proyecto
+
+"""
+
 # Create your models here.
 class Noticias(models.Model):
     title = models.CharField(max_length=200,verbose_name='Título')

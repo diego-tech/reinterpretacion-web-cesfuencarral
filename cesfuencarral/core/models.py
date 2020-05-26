@@ -2,6 +2,13 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
+"""
+En el models.py se guardan los modelos que se pasarán al admin de django
+en este modelo solo guardaremos las imágenes de la home en la base de datos
+por eso todos los campos son ImageField
+
+"""
+
 # Create your models here.
 class Imagenes(models.Model):
     title = models.CharField(max_length=200,verbose_name='Título')

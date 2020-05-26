@@ -2,6 +2,12 @@ from django.shortcuts import render
 from .models import Imagenes
 # Create your views here.
 
+""" 
+Estas son las vistas principales de la página web, estan basadas en funciones
+estas vistas se pasan al urls.py para el redireccionamiento
+
+"""
+
 def home(request):
     imagenes = Imagenes.objects.all()
 

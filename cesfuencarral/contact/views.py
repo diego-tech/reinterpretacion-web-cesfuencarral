@@ -5,6 +5,13 @@ from .forms import ContactForm, ContactMediosForm, ContactSuperiorForm
 
 # Create your views here.
 
+
+"""
+En esta app están creadas las vistas de todos los contactos, los 6 contactos de 
+los grados y el contacto general, estas vistas tambien están basadas en funciones y además lleven una configuración
+para que cuando se envçie el mail aparezca una cosa en específico.
+
+"""
 #Contacto general
 def contacto(request):
     contact_form = ContactForm()

@@ -30,6 +30,11 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+"""
+Installed_apps es uno de los apartados mas importantes de nuestro proyecto es donde guardaremos,
+y registraremos todas nuestras apps que vamos a utilizar en el proyecto
+
+"""
 INSTALLED_APPS = [
     'registration',
     'django.contrib.admin',
@@ -128,10 +133,22 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+"""
+Para que los archivos staticos, es decir imágenes, vídeos se vean en el proyecto sin estar en estado de producción
+hay que hacer una pequeña configuración para que los archivos carguen estando el debug en True
+
+"""
 # Media Files
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+
+"""
+CkEditor es un editor de texto que hace que en el panel de administrador de Django se pueda hacer muchas funcionalidades
+como poner texto en negrita, subrayado justificado a un lado u a otro, es como word pero para Django, aunque también se puede usar
+con otrso frameworks
+
+"""
 #Ckeditor
 CKEDITOR_CONFIGS = {
     'default': {
@@ -145,9 +162,18 @@ CKEDITOR_CONFIGS = {
     }
 }
 
+"""
+Configuración de la redirección del logout
+
+"""
 # Auth Redirects
 LOGOUT_REDIRECT_URL = 'campus'
 
+"""
+Configuración de servidor SMTP para el envío de los datos de los contactos y el envío
+de los mails de la restauración de contraseña.
+
+"""
 # Emails
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'

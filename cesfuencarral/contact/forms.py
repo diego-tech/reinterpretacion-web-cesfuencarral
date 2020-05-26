@@ -1,5 +1,12 @@
 from django import forms
 
+
+"""
+El archivo forms.py es un archivo que creamos nosotros en el que habrá que importar forms de django,
+en este archivo tenemos que configurar el los inputs de contacto.
+
+"""
+
 class ContactForm(forms.Form):
     name = forms.CharField(label='Nombre', required=True,min_length=3, max_length=100)
     email = forms.EmailField(label='Email', required=True, min_length=3, max_length=100)
