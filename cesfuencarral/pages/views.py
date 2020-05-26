@@ -27,7 +27,7 @@ class StaffRequeridMixin(object):
 
 class PageListView(ListView):
     model = Page
-    paginate_by = 10
+    paginate_by = 6
 
 class PageDetailView(DetailView):
     model = Page

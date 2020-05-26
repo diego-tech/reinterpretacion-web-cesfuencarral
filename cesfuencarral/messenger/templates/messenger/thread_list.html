@@ -12,6 +12,7 @@
         <div class="row">
           <!-- Hilos de conversación -->
           <div class="col-md-4">
+          <p>Chats Activos</p>
             <!-- Recorremos los Threads y sólo mostramos los que tienen como mínimo 1 mensaje -->
             {% for thread in request.user.threads.all %}
               {% if thread.messages.all|length > 0 %}
