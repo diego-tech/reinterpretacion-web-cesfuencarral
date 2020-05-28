@@ -146,7 +146,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 """
 CkEditor es un editor de texto que hace que en el panel de administrador de Django se pueda hacer muchas funcionalidades
 como poner texto en negrita, subrayado justificado a un lado u a otro, es como word pero para Django, aunque también se puede usar
-con otrso frameworks
+con otros frameworks
 
 """
 #Ckeditor
