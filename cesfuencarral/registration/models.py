@@ -3,6 +3,21 @@ from django.contrib.auth.models import User
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 
+"""
+En este models.py tenemos dos configuraciones diferentes,
+la configuración típica de cualquier modelo que queramos implementar, en este caso
+el modelo de el formulario de creación de un perfil y dos configuraciones más.
+
+
+La configuración custom_upload_to es una configuración de los avatares de los usuarios,
+cuando el usuario elimina el antiguo avatar y sube otro, automáticamente el anterior se elimina de la base de datos
+y se sube el nuevo avatar.
+
+Y la configuración ensure_profile_exists es una configuración para que todos los nuevos usuarios registrados,
+cuenten automáticamente con un perfil visible aunque no haya sido configurado por el usuario, es decir, si yo creo el User1 este usuario
+automáticamente tendrá un perfil con una descripción vacía y con un avatar fijo visible.
+
+"""
 
 def custom_upload_to(instance, filename):
     old_instance = Profile.objects.get(pk=instance.pk)

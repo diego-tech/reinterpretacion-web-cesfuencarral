@@ -7,6 +7,15 @@ from django.contrib.auth.decorators import login_required
 from django import forms
 from .models import Profile
 
+
+"""
+En este views.py trabajaremos con vistas basadas en clases en vez de usar vistas basadas en funciones
+es prácticamente igual pero en diferentes situaciones el uso de las vistas basadas en clases es más simple
+y más rápidas por ejemplo en el caso de las vistas con registros django tiene varias vistas basadas en clases
+su uso se puede ver en https://ccbv.co.uk/
+
+"""
+
 # Create your views here.
 class SignUpView(CreateView):
     form_class = UserCreationFormWithEmail

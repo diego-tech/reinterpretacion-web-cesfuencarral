@@ -1,6 +1,12 @@
 from django import forms
 from .models import Page
 
+
+
+"""
+Formulario de creación de las consultas
+
+"""
 class PageForm(forms.ModelForm):
 
     class Meta:

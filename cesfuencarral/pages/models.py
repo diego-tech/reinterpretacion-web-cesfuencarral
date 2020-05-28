@@ -1,6 +1,12 @@
 from django.db import models
 from ckeditor.fields import RichTextField
 
+
+"""
+Este modelo es el modelo de creación de consultas con el editor ckeditor.
+
+"""
+
 # Create your models here.
 class Page(models.Model):
     title = models.CharField(verbose_name="Título", max_length=200)

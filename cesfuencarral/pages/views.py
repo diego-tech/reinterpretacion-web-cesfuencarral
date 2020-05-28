@@ -11,6 +11,15 @@ from django.utils.decorators import method_decorator
 from django.contrib.auth.decorators import login_required
 
 
+
+"""
+En estas vistas se guardaran las vistas de las consultas que los usuarios quieren hacer.
+También son vistas basadas en clases
+
+https://ccbv.co.uk/
+
+"""
+
 class StaffRequeridMixin(object):
     """
     Este Mixin Requerirá que el usuario sea miembro del staff

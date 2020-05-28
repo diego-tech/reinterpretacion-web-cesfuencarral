@@ -3,6 +3,15 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from .models import Profile
 
+"""
+En este forms.py crearemos los formularios para crear los usuarios
+podemos ver que hay tres clases, esta el formulario general de registro que es
+UserCreationFormWithEmail, después el formulario para el perfil que es el ProfileForm
+y el último es el de la actualización del Email que es EmailForm
+
+"""
+
+
 class UserCreationFormWithEmail(UserCreationForm):
     email = forms.EmailField(required=True, help_text='Requerido, 254 caracteres como máximo y debe ser válido')
 
