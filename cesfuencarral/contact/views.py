@@ -27,8 +27,8 @@ def contacto(request):
             email = EmailMessage(
                 'Ces Fuencarral: Nuevo Mensaje de Contacto',
                 'De {} Con Email <{}> y Número {} \n\nEscribío:\n\n{}'.format(name, email, phone ,content),
-                'no-contestar@ibox.mailtrap.io',
-                ['dieguitoprogramacion@gmail.com'],
+                'no-contestar@inbox.cesfuencarral.com',
+                ['cesfuencarral@infocesfuencarral.com'],
                 reply_to=[email]
             )
 
@@ -55,8 +55,8 @@ def smr(request):
         email = EmailMessage(
             'Ces Fuencarral: Nuevo mensaje de {}'.format(public),
             'De {} Con Email:{} Y teléfono {} solicita información sobre {}'.format(name, email, phone, public),
-            'no-contestar@inbox.mailtrap.io',
-            ['dieguitoprogramacion@gmail.com'],
+            'no-contestar@inbox.cesfuencarral.com',
+            ['cesfuencarral@infocesfuencarral.com'],
             reply_to=[email]
         )
         
@@ -82,8 +82,8 @@ def dependencia(request):
         email = EmailMessage(
             'Ces Fuencarral: Nuevo mensaje de {}'.format(public),
             'De {} Con Email:{} Y teléfono {} solicita información sobre {}'.format(name, email, phone, public),
-            'no-contestar@inbox.mailtrap.io',
-            ['dieguitoprogramacion@gmail.com'],
+            'no-contestar@inbox.cesfuencarral.com',
+            ['cesfuencarral@infocesfuencarral.com'],
             reply_to=[email]
         )
         
@@ -109,8 +109,8 @@ def enfermeria(request):
         email = EmailMessage(
             'Ces Fuencarral: Nuevo mensaje de {}'.format(public),
             'De {} Con Email:{} Y teléfono {} solicita información sobre {}'.format(name, email, phone, public),
-            'no-contestar@inbox.mailtrap.io',
-            ['dieguitoprogramacion@gmail.com'],
+            'no-contestar@inbox.cesfuencarral.com',
+            ['cesfuencarral@infocesfuencarral.com'],
             reply_to=[email]
         )
         
@@ -138,8 +138,8 @@ def dam(request):
         email = EmailMessage(
             'Ces Fuencarral: Nuevo mensaje de {}'.format(public),
             'De {} Con Email:{} Y teléfono {} solicita información sobre {}'.format(name, email, phone, public),
-            'no-contestar@inbox.mailtrap.io',
-            ['dieguitoprogramacion@gmail.com'],
+            'no-contestar@inbox.cesfuencarral.com',
+            ['cesfuencarral@infocesfuencarral.com'],
             reply_to=[email]
         )
         
@@ -166,8 +166,8 @@ def integracion(request):
         email = EmailMessage(
             'Ces Fuencarral: Nuevo mensaje de {}'.format(public),
             'De {} Con Email:{} Y teléfono {} solicita información sobre {}'.format(name, email, phone, public),
-            'no-contestar@inbox.mailtrap.io',
-            ['dieguitoprogramacion@gmail.com'],
+            'no-contestar@inbox.cesfuencarral.com',
+            ['cesfuencarral@infocesfuencarral.com'],
             reply_to=[email]
         )
         
@@ -194,8 +194,8 @@ def infantil(request):
         email = EmailMessage(
             'Ces Fuencarral: Nuevo mensaje de {}'.format(public),
             'De {} Con Email:{} Y teléfono {} solicita información sobre {}'.format(name, email, phone, public),
-            'no-contestar@inbox.mailtrap.io',
-            ['dieguitoprogramacion@gmail.com'],
+            'no-contestar@inbox.cesfuencarral.com',
+            ['cesfuencarral@infocesfuencarral.com'],
             reply_to=[email]
         )
         
