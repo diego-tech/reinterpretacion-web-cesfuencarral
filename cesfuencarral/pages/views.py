@@ -41,13 +41,13 @@ class PageListView(ListView):
 class PageDetailView(DetailView):
     model = Page
 
-@method_decorator(login_required, name='dispatch')
+@method_decorator(staff_member_required, name='dispatch')
 class PageCreate(CreateView):
     model = Page
     form_class = PageForm
     success_url = reverse_lazy('pages:pages')
 
-@method_decorator(login_required, name='dispatch')
+@method_decorator(staff_member_required, name='dispatch')
 class PageUpdate(UpdateView):
     model = Page
     form_class = PageForm
